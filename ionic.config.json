@@ -1,0 +1,7 @@
+{
+  "name": "FrutasRegionaisAmapa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
