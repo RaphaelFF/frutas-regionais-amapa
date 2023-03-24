@@ -1,3 +1,25 @@
-ion-slide img{
-  
+h1{
+    margin-top: 30px;
+    align-items: center;
 }
+
+h2{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.card1, .card2, .card3 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+    padding: 10px; 
+  }
+
+  .card1 {
+    margin-top: 50px;
+  }
+  hr{
+    color: black;
+  }
