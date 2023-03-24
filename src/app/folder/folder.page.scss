@@ -3,15 +3,12 @@ h1{
     align-items: center;
 }
 
-h2{
-    margin-top: 50px;
-    text-align: center;
-    
+.titulo2  h2{
+    margin-top: 50px;   
 }
 
 .card1, .card2, .card3 {
     display: flex;
-    justify-content: center;
     width: 100%;
     gap: 10px;
     padding: 10px; 
@@ -21,5 +18,13 @@ h2{
     margin-top: 50px;
   }
   hr{
-    color: black;
+    background-color: black;
+    margin-right: 60px;
   }
+
+  ion-card{
+    width: 33%;
+    height: 33%;
+    text-align: center;
+  }
+  

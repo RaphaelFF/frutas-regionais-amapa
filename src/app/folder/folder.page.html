@@ -3,7 +3,7 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>{{ folder }}</ion-title>
+    <ion-title>Home</ion-title>
   </ion-toolbar>
 </ion-header>
 
@@ -12,7 +12,7 @@
   <h1>Destaques no agronegócio</h1>
   <hr>
 
-  <ion-slides>
+  <ion-slides pager="true" loop="true" autoplay="true">
     <ion-slide>
       <img
         src="https://img.freepik.com/vetores-gratis/infografico-de-ecologia-com-foto_23-2148460327.jpg?size=626&ext=jpg&ga=GA1.2.1329904569.1679678168&semt=sph"
@@ -31,9 +31,10 @@
         alt="">
     </ion-slide>
   </ion-slides>
-
-  <h2>Principais Frutos Nativos da Região do Amapá</h2>
-  <hr>
+  <div class="titulo2">
+    <h2>Principais Frutos Nativos da Região do Amapá</h2>
+    </div>
+    <hr>
   <div class="card1">
     <ion-card color="dark">
       <ion-card-content>
@@ -82,7 +83,7 @@
     <ion-card color="light">
       <ion-card-content>
         <ion-icon name="map-sharp"></ion-icon>
-        <ion-card-title>Camu-camu</ion-card-title>
+        <ion-card-title>Camu</ion-card-title>
       </ion-card-content>
     </ion-card>
 
@@ -90,6 +91,13 @@
       <ion-card-content>
         <ion-icon name="map-sharp"></ion-icon>
         <ion-card-title>Bacuri</ion-card-title>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-card color="primary">
+      <ion-card-content>
+        <ion-icon name="map-sharp"></ion-icon>
+        <ion-card-title>Abacaxi</ion-card-title>
       </ion-card-content>
     </ion-card>
   </div>
