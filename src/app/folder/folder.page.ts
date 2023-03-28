@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { delay } from 'rxjs';
 
 @Component({
   selector: 'app-folder',
@@ -18,7 +19,7 @@ export class FolderPage implements OnInit {
   slideOptsOne = {
     initialSlide: 0,
     slidesPerView: 1.1,
-    autoplay:true
+    autoplay: true
    };
 }
 
