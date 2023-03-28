@@ -31,3 +31,22 @@
     --ion-toolbar-color: white;
 }
 // card da seção principal/folder
+
+.bnt{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+
+button{
+    background-color: #54644b;
+    padding: 25px;
+    width: 150px;
+    border-radius: 20px;
+    color: white;
+}
+}
+
+hr{
+    background-color: black;
+}
