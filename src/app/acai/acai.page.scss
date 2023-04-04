@@ -6,7 +6,7 @@
 
 button{
     background-color: #54644b;
-    padding: 25px;
+    padding: 10px;
     width: 150px;
     border-radius: 20px;
     color: white;
@@ -15,4 +15,23 @@ button{
 
 hr{
     background-color: black;
+}
+
+img{
+    width: 100%;
+}
+
+.titulo{
+    background-color: #54644b;
+    padding: 10px;
+}
+
+.card-conteudo{
+    border-radius: 20px;
+}
+
+.titu{
+    font-size: 15px;
+    align-items: center;
+    text-align: center;
 }
