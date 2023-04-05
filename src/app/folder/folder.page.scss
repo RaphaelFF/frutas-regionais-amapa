@@ -3,6 +3,11 @@ h1{
     align-items: center;
 }
 
+h1, h2{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .titulo2  h2{
     margin-top: 50px;   
 }
@@ -15,7 +20,7 @@ h1{
   }
 
   .card1 {
-    margin-top: 50px;
+    margin-top: 30px;
   }
   hr{
     background-color: black;
@@ -26,12 +31,18 @@ h1{
     width: 33%;
     height: 33%;
     text-align: center;
+    border-radius: 10px;
+
   }
   
   img{
     padding: 20px;
     padding-left: 10px;
-    border-radius: 100px;
+    border-radius: 75px;
+  }
+
+  ion-card-title{
+    font-size: 15px;
   }
 
 
