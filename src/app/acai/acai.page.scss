@@ -54,18 +54,6 @@ span{
     color: black;
     font-weight: bold;
 }
-
-ion-button {
-    padding-top: 20px;
-    --background: #93e9be;
-    --color: blue;
-    --border-radius: 0;
-    --border-color: #000;
-    --border-style: solid;
-    --border-width: 1px;
-    --padding-top: 10px;
-    --padding-bottom: 10px;
-    display: flex;
-    align-content: center;
-    width: 100px;
-  }
+ion-button{
+    padding-left: 40%;
+}
